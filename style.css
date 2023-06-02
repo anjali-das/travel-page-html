@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Bebas+Neue&family=Bree+Serif&family=Chivo+Mono:ital,wght@1,200&family=Cormorant+Garamond:wght@300&family=DM+Serif+Display&family=Dancing+Script:wght@400;700&family=Great+Vibes&family=Instrument+Serif:ital@1&family=Italianno&family=Libre+Baskerville:wght@700&family=Lora:ital@1&family=My+Soul&family=Open+Sans:wght@300&family=Overpass:wght@100&family=Pacifico&family=Playfair+Display&family=Poltawski+Nowy&family=Raleway:wght@200&family=Roboto+Mono:wght@300&family=Rubik+Gemstones&family=Satisfy&family=Sevillana&family=Seymour+One&family=Solway:wght@300;700&family=Source+Code+Pro:wght@300&family=Tilt+Prism&family=Ubuntu&family=Yeon+Sung&display=swap');
+.guide{
+    margin-left: 130px;
+    margin-top:-40px;
+    font-family: 'PT Serif', serif;
+}
+header{
+    background-image: url('https://images.unsplash.com/photo-1433838552652-f9a46b332c40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+   
+   background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+} 
+.travel{
+    font-family: 'Solway', serif;
+    color: crimson;
+}
+.row{
+    padding:180px;
+}
+.button1{
+    margin: auto;
+    
+}
+.first{
+    margin-left: 1000px;
+    margin-top: 100px;
+    font-size: 70px;
+    font-family: 'Seymour One', sans-serif;
+    color: white;
+}
+.second{
+    margin-left: 1000px;
+    margin-top: 1px;
+    font-size: 70px;
+    font-family: 'Pacifico', cursive;
+    color: white;
+}
+.third{
+
+    margin-left: 1000px;
+    margin-top: 1px;
+    font-size: 70px;
+    color: white;
+}
+.fourth{
+    margin-left: 1000px;
+    margin-top: 1px;
+    font-size: 70px;
+    font-family: 'Yeon Sung', cursive;
+    color: white;
+}
+.button2{
+    margin: auto;
+    margin-left: 700px;
+    margin-top: 100px;
+    
+}
+.button3{
+width: 100%;
+}
+.slide{
+    height: 500px;
+}
+.row{
+    padding-top: 100px;
+    width: 100%;
+    height:500px ;
+    float: right;
+}
+ .video{
+    margin-left: -170px;
+
+} 
+.col-6{
+    width: 100%;
+    height: 200px;
+}
+  .img1{
+   width: 720px;
+    height: 410px;
+
+
+}  
+.special{
+    margin-top: 700px;
+}
+
+k1{
+    margin-bottom: 300px;
+    
+}
+/* #drop{
+    background-color:palegreen;
+    
+    
+} */
+/* #dropclr{
+    color:palevioletred;
+    border-radius: 50%;
+} */
+#learn{
+    color: blueviolet;
+    text-decoration: none;
+    font-size: x-large;
+    margin-left: 39px;
+}
+.premium{
+    font-family: 'italianno';
+    font-size: 40px;
+    color: rgb(212, 46, 101);
+    text-align: center;
+
+}
+.ourcustomers{
+    font-family: 'italianno';
+    font-size: 45px;
+    color: blue;
+}
+.fa-brands{
+color: white;
+font-size: 30px;
+}
+.fa-brands:hover{
+    color: red;
+    font-size: 35px;
+}
+.kathakli{
+    font-family: 'Noto Serif', serif;
+}
+.mohiniyattom{
+    font-family: 'Noto Serif', serif;
+
+}
+.boatrace{
+    font-family: 'Noto Serif', serif;
+
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 360px;
+    height: 400px;
+    background: #000;
+}
+.card .image {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.card .image img {
+    width: 100%;
+    transition: .5s;
+}
+.card:hover .image img {
+    opacity: .5;
+    transform: translateX(30%);/*100%*/
+}
+.card .details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    background: #07daff;
+    transition: .5s;
+    transform-origin: left;
+    transform: perspective(2000px) rotateY(-90deg);
+}
+.card:hover .details {
+    transform: perspective(2000px) rotateY(0deg);
+}
+.card .details .center {
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.humayuntomb{
+    height: 300px;
+}
+.kashmir{
+    height: 300px;
+   
+}
+.varanasi{
+    height: 300px;
+  
+}
+
+.maincontainer
+{
+    width: 302px;
+    height: 299px;
+    margin: 10px;
+    float: left; /* stack each div horizontally */
+}
+
+img
+{
+   border-radius: 10px;
+}
+
+.back h2
+{
+    position: absolute;
+}
+
+.back p
+{
+    position: absolute;
+    top: 50px;
+    font-size: 15px;
+}
+
+.front h2
+{
+    position: absolute;
+    padding: 10px;
+    top: 200px;
+    color: #000;
+}
+
+/* style the maincontainer class with all child div's of class .front */
+.maincontainer > .front
+{
+    position: absolute;
+    transform: perspective(600px) rotateY(0deg);
+    
+    width: 302px;
+    height: 290px;
+    
+    backface-visibility: hidden; /* cant see the backside elements as theyre turning around */
+    transition: transform .5s linear 0s;
+}
+
+/* style the maincontainer class with all child div's of class .back */
+.maincontainer > .back
+{
+    position: absolute;
+    transform: perspective(600px) rotateY(180deg);
+    background: #d9caca;
+    color: #fff;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 5px;
+    backface-visibility: hidden; /* cant see the backside elements as theyre turning around */
+    transition: transform .5s linear 0s;
+}
+
+.maincontainer:hover > .front
+{
+    transform: perspective(600px) rotateY(-180deg);
+}
+
+.maincontainer:hover > .back
+{
+    transform: perspective(600px) rotateY(0deg);
+}
+
+
+
+
+
+
+ 
